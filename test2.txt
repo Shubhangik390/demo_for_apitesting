@@ -1,0 +1,173 @@
+Q.1)Following are the Diiferent Types of datatype:
+a)Primitive Data type
+b)Non Primitive Data type
+a)In primitive data type there are 2 different types
+1)Numeric Data type
+2)Non-Numeric Data type
+In Numeric Data type there are 2 different types:
+i)Interger
+ii)Decimal
+In Interger there are 4 different types:
+a)Byte=size is 1 byte
+b)Short=size is 2 byte
+c)int=size is 4 byte
+d)long=size is 8 byte
+In Decimal there are 2 different types:
+a)float=4byte
+b)double=8byte
+IN Non-Numeric Data type there are 2 different types:
+1)character=A-Z AND a-z
+2)Boolean=it gives True and False
+
+In Non Primitive Data type there are Following types:
+a)String
+b)List
+c)arrays
+d)map
+e)hashmap
+f)arraylist
+--------------------------------------------------------------------------
+Q.2)There are 4 different types of java indentifiers:
+1)Package
+2)class
+3)variables
+4)Methos
+
+Package is group of different classes:
+Rules for naming Convention of PAckage:
+1)package NAme start from A-Z or a-z =initial letter should be used lower case
+2)package NAme start from 0-9=no.s cannot be used indiviuaslly
+3)only 2 special character _ and $.
+ 
+Class is collection of well defined objects
+Rules for naming Convention of Class:
+1)Class NAme start from A-Z or a-z =initial letter should be used Upper case
+2)Class NAme start from 0-9=no.s cannot be used indiviuaslly and cannot be starting letter of class
+3)only 2 special character _ and $ 
+------------------------------------------------------------------
+Q.3)keyword is reserved word which have predefined meaning.because of this programmer cannot use keyword in some context
+for eg.false,int this are keywords
+
+
+
+
+Q.4)return keyword is finishes the execution of the method and can be used to return a value from a method.
+
+
+------------------------------------------------------------------------
+Q.5)Variables are the names used to refer a data stored in the memory.
+rules to declare and initialize variable:
+declaring a variable = data type and variable name
+        for eg=   int i;
+And Initializing Variable=A value will be assign to the Variable
+   for eg=int i=79;
+------------------------------------------------------------------------
+Q.6)increment (++) and decrement (–) operators, which are used to increase or decrease the value of a variable by  1.
+there are  two diiferent types of increment and decrement operator
+1)preincrement:for eg.++i
+2)postincrement:for eg.i++
+-------------------------------------------------------------
+
+Q.7)Assignment Operator is used to assign the value in right hand side to the left hand side variable name
+
+eg=int a=10; here variable a assign the value 10
+
+Comparision Operator used to Comapair two or more types of inputs
+following are the comparison operator=
+a==b 
+a>b=a greter than b
+a<b=a less than b
+a>=b:a is greter than equal to b
+a<=b:a is less than equal to b
+a!=b=not equal
+--------------------------------------------------------------------------------------
+Q.8)Static and non static variable=
+static variable are belogs to class and non static variable belongs to object
+.Static variable  can be accessed using following ways:
+
+
+a)only variable name
+b)class name.variable name
+
+And Non Static varibale can be used with object Referance
+-----------------------------------------------------
+Q.9)
+
+
+public class A {
+ static A a1= new A();
+public static void main(String[] args){
+
+
+a1.Test();
+}
+	
+public void Test()
+{
+ System.out.println("Hello");
+}
+}
+
+---------------------------------------------------------
+
+
+
+
+Q.10)
+
+
+Casting means Conversion of One Data type to another data type:
+there are two diff types:a)Upcasting:means conversion of lower memeory size datatype to larger
+
+b)Downcasting:conversion of higher memeory datatype to lower data type
+eg;public class Auto_Upcasting1 
+{
+
+public static void main(String[] args)
+{
+byte a=2;  
+short b=a;
+System.out.println(b);
+
+}
+
+}
+-------------------------------------------------------------
+Q.1)output:Error
+2)output:Error
+3)output:Error
+4)output:0
+         20
+         10
+5)output:2.0
+6)Output:
+I
+Love
+You
+too
+7)Output:Error
+8)Output:i=10,j=70
+9)Output:000
+10)output:2.0
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
